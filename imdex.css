@@ -1,0 +1,950 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+
+  color: white;
+}
+.navbar {
+background-color: white;
+  width: 100%;
+
+ 
+  z-index: 999;
+ /* Preenche a altura total da tela */
+ position: fixed;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ opacity: 0.9;
+ 
+}
+
+/* Centraliza o conteúdo horizontal e verticalmente */
+.navbar-nav {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  flex-direction: row; /* Disposição em linha (row) */
+  width: 100%;
+}
+
+/* Estilos dos links */
+.nav-link {
+  color:rgb(104, 104, 104)!important;
+  font-size: 1.5rem; /* Aumenta a fonte */
+  font-weight: bold; /* Negrito */
+  margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+/* Altera a cor do link ativo */
+.nav-link.active {
+  color: rgb(39, 39, 39) !important;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+    width: 80%; /* Ajuste este valor para aumentar o tamanho da imagem */
+    height: auto;
+    max-width: 500px;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255,0.2));
+    transition: scale 1s ease;
+}
+
+.image-container img:hover{
+  scale: 1.067
+}
+
+
+
+.two{
+    width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+  background-image: url(/midias/Section1/fundo\ de\ hamburguer50opa.png);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+
+.two .container{
+    width: 90%;
+    min-height: 70vh;
+   filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.3)); 
+   display: block;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   transition: scale 1s ease-in-out;
+
+
+
+}
+
+.two .container:hover{
+    scale: 1.05;
+}
+
+.two .container h2, .two .container h3{
+    width: 70%;
+    color: white;
+}
+
+.two .container h2{
+    padding-bottom: 1rem;
+
+}
+
+
+#container-pagtwo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    height: 80%;
+    border-radius: 1%;
+    background-color: #ff4d00;
+    color: black;
+    padding: 1rem; /* Adiciona padding para espaçamento interno */
+}
+
+.one{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 10px;
+    background-image: url(/midias/Section1/fundo\ de\ hamburguer50opa.png);
+    background-size: cover;
+}
+
+
+
+
+
+.carousel {
+    margin-bottom: 30px; /* Adiciona espaço abaixo do carrossel */
+    color: #ff4d00;
+
+}
+.carousel-caption-below {
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Adiciona espaço entre a imagem e o texto */
+}
+.carousel-caption-below h1,
+.carousel-caption-below p {
+    margin: 10px 0;
+    word-wrap: break-word;
+
+}
+.carousel-caption-below h1{
+
+    filter: drop-shadow(3px 3px 10px rgba(0, 0, 0, 0.3));
+}
+/* Ajuste para tamanhos de fonte responsivos */
+h1 {
+    font-size: 5vw; /* Fonte se ajusta proporcionalmente à largura da viewport */
+}
+p {
+    font-size: 3vw; /* Fonte se ajusta proporcionalmente à largura da viewport */
+}
+.carousel-control-prev, 
+.carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+    
+    opacity: 0.5;
+}
+.carousel-control-prev {
+    left: -15%; /* Ajuste o valor conforme necessário para telas menores */
+}
+.carousel-control-next {
+    right: -15%; /* Ajuste o valor conforme necessário para telas menores */
+}
+.carousel-control-prev-icon{
+
+    filter: drop-shadow(10px 3px 10px rgba(0, 0, 0, 0.5));
+}
+.carousel-control-next-icon {
+    filter: drop-shadow(-13px 3px 10px rgba(0, 0, 0, 0.5));
+
+}
+.btn-responsive {
+ color: rgb(255, 255, 255);
+ background-color: rgba(255, 77, 0, 1);
+ border: #ff4d00;
+
+ transition:  0.5s ease-in-out;
+
+}
+.btn-responsive:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(202, 61, 0, 1);
+    border: #ff4d00;
+   }
+
+
+.text-center{
+    background-color: #ee4700;
+}
+
+.py-5 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.display-4 {
+    font-size: 1.5rem;
+    font-weight:200;
+    word-break: break-word;
+    
+    filter: drop-shadow(1px 3px 20px rgba(0, 0, 0, 0.5));
+}
+
+
+#section4{
+    height: 100vh;
+}
+
+#section5{
+    height: 100vh;
+}
+
+#section6{
+    height: 100vh;
+}
+
+
+
+
+.footer-background video,
+.backgrounds6 video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  opacity: 0.2; /* Ajuste a opacidade conforme necessário */
+}
+
+.footer-content,
+.backgrounds6-content {
+  position: relative;
+  z-index: 1;
+  color: white; /* Ajuste a cor do texto conforme necessário */
+  text-align: center;
+  padding: 20px 0; /* Ajuste o padding conforme necessário */
+}
+
+
+
+
+
+
+.footer-background,.backgrounds6{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    opacity: 0.9;
+}
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.gradient-wrapper {
+    background: linear-gradient(to bottom, #ff4d00 20%, black 60%);
+}
+.section {
+    padding: 100px 0;
+}
+
+#section4{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+ 
+}
+.gradient-wrapper .section .carousel {
+    margin-bottom: 30px; /* Adiciona espaço abaixo do carrossel */
+    color: #ffffff;
+
+}
+.carousel-caption-below {
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Adiciona espaço entre a imagem e o texto */
+}
+.carousel-caption-below h1,
+.carousel-caption-below p {
+    margin: 10px 0;
+    word-wrap: break-word;
+
+}
+.carousel-caption-below h1{
+
+    filter: drop-shadow(3px 3px 10px rgba(0, 0, 0, 0.3));
+}
+/* Ajuste para tamanhos de fonte responsivos */
+h1 {
+    font-size: 5vw; /* Fonte se ajusta proporcionalmente à largura da viewport */
+}
+p {
+    font-size: 3vw; /* Fonte se ajusta proporcionalmente à largura da viewport */
+}
+.carousel-control-prev, 
+.carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+    
+    opacity: 0.5;
+}
+.gradient-wrapper .section .carousel-control-prev {
+    left: -15%; /* Ajuste o valor conforme necessário para telas menores */
+}
+.gradient-wrapper .section .carousel-control-next {
+    right: -15%; /* Ajuste o valor conforme necessário para telas menores */
+}
+.gradient-wrapper .section .carousel-control-prev-icon{
+
+    filter: drop-shadow(10px 3px 10px rgba(0, 0, 0, 0.5));
+    background-image: url(/midias/slide1/seta-white-direita.svg);
+    rotate: 180deg;
+}
+.gradient-wrapper .section .carousel-control-next-icon {
+    filter: drop-shadow(-13px 3px 10px rgba(0, 0, 0, 0.5));
+    background-image: url(/midias/slide1/seta-white-direita.svg);
+    
+
+}
+#carouselExampleControls2 .btn-responsive {
+ color: #ff4d00;
+ background-color: rgb(255, 255, 255);
+ border: #ff4d00;
+
+
+ transition:  0.5s ease-in-out;
+
+}
+#carouselExampleControls2 .btn-responsive:hover {
+    color: #ff4d00;
+    background-color: rgb(212, 212, 212);
+    border: #ff4d00;
+
+   }
+
+   #containerpag5{
+    
+   }
+
+   #section5 .card {
+    max-width: 500px;
+    margin: auto;
+
+
+}
+
+
+
+
+
+.pagina-6{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50vh;
+  }
+  .card-custom, .card-body-custom {
+    border: none; /* Remove qualquer borda */
+    outline: none; /* Remove qualquer contorno */
+}
+
+  .card-media {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+   
+  }
+
+
+  .card-custom {
+    height: 50vh; /* Define a altura dos cards para 40% da altura da tela */
+  border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+
+    padding-top: 50px;
+    margin-top: 50px;
+    border: 1px solid #ffffff; /* Borda vermelha com 40px */
+    transition: 0.5s ease;
+  
+  }
+
+  .card-custom:hover{
+    scale: 1.05;
+  }
+  .card-body-custom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity:1 ; /* Inicialmente oculta o texto */
+    transition: opacity 1.0s ease;
+    background: linear-gradient(-45deg, black,#ff4d00, #ff4d00);
+    background-size: 300% 300%;
+    animation: gradient-animation 5s ease infinite;
+    color: #fff;
+    padding: 15px;
+    border: 1px solid #ffffff;
+  }
+
+
+  @keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 90% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .card-title, .card-text {
+    font-size: 1rem; /* Ajusta o tamanho da fonte */
+  }
+  .card-text {
+    font-size: 0.875rem; /* Fonte menor para o texto */
+  }
+
+  
+  #section6{
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+
+  #section6 .row{
+    width: 100%;
+  }
+  #s6-container1{
+
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+
+  #s6-container2{
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+justify-content: center;
+align-items: center;
+
+    
+  }
+
+
+  #div-texts6 {
+    font-size: 2rem;
+    position: relative;
+    padding-left: 40px; /* Espaço para a barra */
+  }
+  #div-texts6::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 20px; /* Largura da barra */
+    height: 150%;
+    align-self: center;
+    background-color: #ffffff; /* Cor da barra */
+  }
+
+  #div-texts6::before:hover {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%; /* Largura da barra */
+    height: 150%;
+    align-self: center;
+    background-color: #ffffff; /* Cor da barra */
+  }
+
+
+
+
+  .p-3 p{
+    font-size: 1.9rem;
+    padding-left: 50px;
+  }
+  .p-3 h4{
+    font-size: 2.2rem;
+padding-bottom: 30px;
+text-transform: uppercase;
+font-weight: bold;
+    padding-left: 40px;
+
+  }
+
+
+  
+
+
+  footer p{
+    font-size: 1rem;
+  }
+
+  footer{
+    background-color:#ee4700;
+  }
+  .icon-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px; /* 50% fora do footer */
+    background-color: transparent;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Opcional: sombra para destacar */
+}
+
+.video-circle {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para garantir que o vídeo cubra todo o círculo */
+}
+
+
+
+@media (min-width: 1400px){
+   
+    h1 {
+        font-size: 5vw; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+    p {
+        font-size: 6vw; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+
+      
+    .two .container h3 {
+        width: 90%; /* Ajusta a largura para telas menores */
+        font-size: 2.3rem; /* Ajusta o tamanho da fonte */
+      }
+    
+      .two .container h2 {
+        padding-bottom: 0.5rem; /* Ajusta o padding inferior */
+        font-size: 2.6rem; /* Ajusta o tamanho da fonte */
+        font-weight: 600;
+      }
+
+    .btn-responsive {
+        font-size: 2.2rem;
+        padding: 1rem 1rem; /* Padding menor para telas ainda menores */
+        white-space: wrap;     /* Garante que o texto não quebre de linha */
+    }
+
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+
+      width:5vw;
+      height: 5vw;
+     
+    }
+
+    .display-4 {
+        font-size: 3rem;
+        font-weight:200;
+        word-break: break-word;
+    }
+
+
+    #containerpag5{
+    background-color: aquamarine;
+    height: 75vh;
+    }
+
+
+
+}
+
+@media (max-width: 1399px) {
+    h1 {
+        font-size: 6vw; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+    p {
+        font-size: 4vw; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+    
+    .two .container h3 {
+        width: 90%; /* Ajusta a largura para telas menores */
+        font-size: 1.6rem; /* Ajusta o tamanho da fonte */
+      }
+    
+      .two .container h2 {
+        padding-bottom: 0.5rem; /* Ajusta o padding inferior */
+        font-size: 2.3rem; /* Ajusta o tamanho da fonte */
+        font-weight: 600;
+      }
+    
+      #container-pagtwo {
+        padding: 0.5rem; /* Ajusta o padding interno para telas menores */
+      }
+
+     
+
+
+    .btn-responsive {
+        font-size: 1rem; /* Ajusta o tamanho da fonte para telas menores */
+        padding: 1.5rem 2rem; /* Ajusta o padding para telas menores */
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+
+      width:6vw;
+      height: 6vw;
+     
+    }
+
+    .carousel-control-prev {
+        left: -15%; /* Ajuste o valor conforme necessário para telas menores */
+    }
+
+    .carousel-control-next {
+        right: -15%; /* Ajuste o valor conforme necessário para telas menores */
+    }
+
+    .display-4 {
+        font-size: 2.5rem;
+        font-weight:200;
+        word-break: break-word;
+    }
+
+
+
+    #containerpag5{
+        background-color: aquamarine;
+        height: 75vh;
+        }
+     
+      
+
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 6vw; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+    p {
+        font-size: 4vw; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+    .two .container h2{
+ font-weight: 800;
+ font-size: 2rem; /* Ajusta o tamanho da fonte */
+ font-weight: 600;
+    }
+
+
+    .two .container h3 {
+      width: 90%; /* Ajusta a largura para telas menores */
+      font-size: 1.5rem; /* Ajusta o tamanho da fonte */
+    }
+
+
+
+
+
+
+
+    .btn-responsive {
+        font-size: 1rem; /* Ajusta o tamanho da fonte para telas menores */
+        padding: 1rem 1rem; /* Ajusta o padding para telas menores */
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+
+      width:6vw;
+      height: 6vw;
+     
+    }
+
+    .carousel-control-prev {
+        left: -15%; /* Ajuste o valor conforme necessário para telas menores */
+    }
+
+    .carousel-control-next {
+        right: -15%; /* Ajuste o valor conforme necessário para telas menores */
+    }
+
+    
+.display-4 {
+    font-size: 2rem;
+    font-weight:200;
+    word-break: break-word;
+}
+
+#containerpag5{
+    background-color: aquamarine;
+    height: 75vh;
+    width: 90vw;
+    }
+
+    
+.pagina-6{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-bottom: 100vh;
+  }
+  
+  #container-do-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-custom {
+    height: 65vh; /* Define a altura dos cards para 40% da altura da tela */
+    width: 60vw;;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+    border: 4px #ee4700;
+    padding-top: 50px;
+    margin-top: 50px;
+  
+  }
+
+  .map-cont{
+    position: relative; top: -40%;
+  }
+
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 7vw; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+    p {
+        font-size: 5vw; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+    .two .container h3 {
+      width: 90%; /* Ajusta a largura para telas menores */
+      font-size: 1.3rem; /* Ajusta o tamanho da fonte */
+    }
+  
+    .two .container h2 {
+      padding-bottom: 0.5rem; /* Ajusta o padding inferior */
+      font-size: 1.6rem; /* Ajusta o tamanho da fonte */
+      font-weight: 600;
+    }
+  
+    #container-pagtwo {
+      padding: 0.5rem; /* Ajusta o padding interno para telas menores */
+    }
+
+
+
+    .btn-responsive {
+        padding: 0.25rem 0.3rem; /* Padding menor para telas ainda menores */
+        white-space: wrap;     /* Garante que o texto não quebre de linha */
+        padding: 1rem 1rem;
+
+        
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+
+      width:6vw;
+      height: 6vw;
+     
+    }
+
+    .carousel-control-prev {
+        left: -15%; /* Ajuste o valor conforme necessário para telas menores */
+    }
+
+    .carousel-control-next {
+        right: -15%; /* Ajuste o valor conforme necessário para telas menores */
+    }
+    
+
+    
+
+.display-4 {
+    font-size: 1.5rem;
+    font-weight:200;
+    word-break: break-word;
+}
+
+
+.pagina-6{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-bottom: 100vh;
+  }
+  
+  #container-do-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-custom {
+    height: 60vh; /* Define a altura dos cards para 40% da altura da tela */
+    width: 75vw;;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+    border: 4px #ee4700;
+    padding-top: 50px;
+    margin-top: 50px;
+  
+  }
+
+}
+
+
+
+@media (min-width: 1400px){
+   
+    h1 {
+        font-size: 5vw; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+    p {
+        font-size: 6vw; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+
+      
+    .two .container h3 {
+        width: 90%; /* Ajusta a largura para telas menores */
+        font-size: 2.3rem; /* Ajusta o tamanho da fonte */
+      }
+    
+      .two .container h2 {
+        padding-bottom: 0.5rem; /* Ajusta o padding inferior */
+        font-size: 2.6rem; /* Ajusta o tamanho da fonte */
+        font-weight: 600;
+      }
+
+    .btn-responsive {
+        font-size: 2.2rem;
+        padding: 1rem 1rem; /* Padding menor para telas ainda menores */
+        white-space: wrap;     /* Garante que o texto não quebre de linha */
+    }
+
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+
+      width:5vw;
+      height: 5vw;
+     
+    }
+
+    .display-4 {
+        font-size: 3rem;
+        font-weight:200;
+        word-break: break-word;
+    }
+
+
+    #containerpag5{
+    background-color: aquamarine;
+    height: 75vh;
+    }
+
+
+
+}
+
+
