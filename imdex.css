@@ -1,4 +1,4 @@
-/* Estilos básicos */
+
 body {
     font-family: Arial, sans-serif;
 
@@ -10,7 +10,6 @@ background-color: white;
 
  
   z-index: 999;
- /* Preenche a altura total da tela */
  position: fixed;
  display: flex;
  justify-content: center;
@@ -19,24 +18,22 @@ background-color: white;
  
 }
 
-/* Centraliza o conteúdo horizontal e verticalmente */
 .navbar-nav {
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  flex-direction: row; /* Disposição em linha (row) */
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: row;
   width: 100%;
 }
 
 /* Estilos dos links */
 .nav-link {
   color:rgb(104, 104, 104)!important;
-  font-size: 1.5rem; /* Aumenta a fonte */
-  font-weight: bold; /* Negrito */
-  margin: 0 15px; /* Espaçamento entre os itens */
+  font-size: 1.5rem; 
+  font-weight: bold; 
+  margin: 0 15px;
 }
 
-/* Altera a cor do link ativo */
 .nav-link.active {
   color: rgb(39, 39, 39) !important;
 }
@@ -73,7 +70,7 @@ background-color: white;
     align-items: center;
 }
 .image-container img {
-    width: 80%; /* Ajuste este valor para aumentar o tamanho da imagem */
+    width: 80%; 
     height: auto;
     max-width: 500px;
     filter: drop-shadow(0px 0px 10px rgb(255, 255, 255,0.2));
@@ -138,7 +135,7 @@ background-color: white;
     border-radius: 1%;
     background-color: #ff4d00;
     color: black;
-    padding: 1rem; /* Adiciona padding para espaçamento interno */
+    padding: 1rem; 
 }
 
 .one{
@@ -155,13 +152,13 @@ background-color: white;
 
 
 .carousel {
-    margin-bottom: 30px; /* Adiciona espaço abaixo do carrossel */
+    margin-bottom: 30px; 
     color: #ff4d00;
 
 }
 .carousel-caption-below {
-    text-align: center; /* Centraliza o texto */
-    margin-top: 20px; /* Adiciona espaço entre a imagem e o texto */
+    text-align: center; 
+    margin-top: 20px; 
 }
 .carousel-caption-below h1,
 .carousel-caption-below p {
@@ -173,12 +170,12 @@ background-color: white;
 
     filter: drop-shadow(3px 3px 10px rgba(0, 0, 0, 0.3));
 }
-/* Ajuste para tamanhos de fonte responsivos */
+
 h1 {
-    font-size: 5vw; /* Fonte se ajusta proporcionalmente à largura da viewport */
+    font-size: 5vw; 
 }
 p {
-    font-size: 3vw; /* Fonte se ajusta proporcionalmente à largura da viewport */
+    font-size: 3vw; 
 }
 .carousel-control-prev, 
 .carousel-control-next {
@@ -189,11 +186,10 @@ p {
     opacity: 0.5;
 }
 .carousel-control-prev {
-    left: -15%; /* Ajuste o valor conforme necessário para telas menores */
+    left: -15%; 
 }
 .carousel-control-next {
-    right: -15%; /* Ajuste o valor conforme necessário para telas menores */
-}
+    right: -15%;
 .carousel-control-prev-icon{
 
     filter: drop-shadow(10px 3px 10px rgba(0, 0, 0, 0.5));
@@ -262,16 +258,16 @@ p {
   object-fit: cover;
   transform: translate(-50%, -50%);
   z-index: -1;
-  opacity: 0.2; /* Ajuste a opacidade conforme necessário */
+  opacity: 0.2; 
 }
 
 .footer-content,
 .backgrounds6-content {
   position: relative;
   z-index: 1;
-  color: white; /* Ajuste a cor do texto conforme necessário */
+  color: white; 
   text-align: center;
-  padding: 20px 0; /* Ajuste o padding conforme necessário */
+  padding: 20px 0; 
 }
 
 
@@ -311,13 +307,13 @@ p {
  
 }
 .gradient-wrapper .section .carousel {
-    margin-bottom: 30px; /* Adiciona espaço abaixo do carrossel */
+    margin-bottom: 30px; 
     color: #ffffff;
 
 }
 .carousel-caption-below {
-    text-align: center; /* Centraliza o texto */
-    margin-top: 20px; /* Adiciona espaço entre a imagem e o texto */
+    text-align: center;
+    margin-top: 20px; 
 }
 .carousel-caption-below h1,
 .carousel-caption-below p {
@@ -329,12 +325,12 @@ p {
 
     filter: drop-shadow(3px 3px 10px rgba(0, 0, 0, 0.3));
 }
-/* Ajuste para tamanhos de fonte responsivos */
+
 h1 {
-    font-size: 5vw; /* Fonte se ajusta proporcionalmente à largura da viewport */
+    font-size: 5vw; 
 }
 p {
-    font-size: 3vw; /* Fonte se ajusta proporcionalmente à largura da viewport */
+    font-size: 3vw;
 }
 .carousel-control-prev, 
 .carousel-control-next {
@@ -345,10 +341,10 @@ p {
     opacity: 0.5;
 }
 .gradient-wrapper .section .carousel-control-prev {
-    left: -15%; /* Ajuste o valor conforme necessário para telas menores */
+    left: -15%; 
 }
 .gradient-wrapper .section .carousel-control-next {
-    right: -15%; /* Ajuste o valor conforme necessário para telas menores */
+    right: -15%; 
 }
 .gradient-wrapper .section .carousel-control-prev-icon{
 
@@ -401,8 +397,8 @@ p {
     padding-bottom: 50vh;
   }
   .card-custom, .card-body-custom {
-    border: none; /* Remove qualquer borda */
-    outline: none; /* Remove qualquer contorno */
+    border: none; 
+    outline: none; 
 }
 
   .card-media {
@@ -414,7 +410,7 @@ p {
 
 
   .card-custom {
-    height: 50vh; /* Define a altura dos cards para 40% da altura da tela */
+    height: 50vh; 
   border-radius: 3%;
     display: flex;
     flex-direction: column;
@@ -426,7 +422,7 @@ p {
 
     padding-top: 50px;
     margin-top: 50px;
-    border: 1px solid #ffffff; /* Borda vermelha com 40px */
+    border: 1px solid #ffffff;
     transition: 0.5s ease;
   
   }
@@ -446,7 +442,7 @@ p {
     top: 0;
     left: 0;
     width: 100%;
-    opacity:1 ; /* Inicialmente oculta o texto */
+    opacity:1 ; 
     transition: opacity 1.0s ease;
     background: linear-gradient(-45deg, black,#ff4d00, #ff4d00);
     background-size: 300% 300%;
@@ -464,10 +460,10 @@ p {
   }
 
   .card-title, .card-text {
-    font-size: 1rem; /* Ajusta o tamanho da fonte */
+    font-size: 1rem; 
   }
   .card-text {
-    font-size: 0.875rem; /* Fonte menor para o texto */
+    font-size: 0.875rem; 
   }
 
   
@@ -504,7 +500,7 @@ align-items: center;
   #div-texts6 {
     font-size: 2rem;
     position: relative;
-    padding-left: 40px; /* Espaço para a barra */
+    padding-left: 40px; 
   }
   #div-texts6::before {
     content: "";
@@ -512,10 +508,10 @@ align-items: center;
     left: 0;
     top: 0;
     bottom: 0;
-    width: 20px; /* Largura da barra */
+    width: 20px; 
     height: 150%;
     align-self: center;
-    background-color: #ffffff; /* Cor da barra */
+    background-color: #ffffff; 
   }
 
   #div-texts6::before:hover {
@@ -524,10 +520,10 @@ align-items: center;
     left: 0;
     top: 0;
     bottom: 0;
-    width: 100%; /* Largura da barra */
+    width: 100%;
     height: 150%;
     align-self: center;
-    background-color: #ffffff; /* Cor da barra */
+    background-color: #ffffff; 
   }
 
 
@@ -565,15 +561,15 @@ font-weight: bold;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: -50px; /* 50% fora do footer */
+    top: -50px; 
     background-color: transparent;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Opcional: sombra para destacar */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); 
 }
 
 .video-circle {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Para garantir que o vídeo cubra todo o círculo */
+    object-fit: cover; 
 }
 
 
@@ -581,30 +577,30 @@ font-weight: bold;
 @media (min-width: 1400px){
    
     h1 {
-        font-size: 5vw; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 5vw; 
     }
 
     p {
-        font-size: 6vw; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 6vw; 
     }
 
 
       
     .two .container h3 {
-        width: 90%; /* Ajusta a largura para telas menores */
-        font-size: 2.3rem; /* Ajusta o tamanho da fonte */
+        width: 90%; 
+        font-size: 2.3rem; 
       }
     
       .two .container h2 {
-        padding-bottom: 0.5rem; /* Ajusta o padding inferior */
-        font-size: 2.6rem; /* Ajusta o tamanho da fonte */
+        padding-bottom: 0.5rem; 
+        font-size: 2.6rem;
         font-weight: 600;
       }
 
     .btn-responsive {
         font-size: 2.2rem;
-        padding: 1rem 1rem; /* Padding menor para telas ainda menores */
-        white-space: wrap;     /* Garante que o texto não quebre de linha */
+        padding: 1rem 1rem; 
+        white-space: wrap;     
     }
 
     
@@ -634,35 +630,35 @@ font-weight: bold;
 
 @media (max-width: 1399px) {
     h1 {
-        font-size: 6vw; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 6vw; 
     }
 
     p {
-        font-size: 4vw; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 4vw; 
     }
 
     
     .two .container h3 {
-        width: 90%; /* Ajusta a largura para telas menores */
-        font-size: 1.6rem; /* Ajusta o tamanho da fonte */
+        width: 90%; 
+        font-size: 1.6rem;
       }
     
       .two .container h2 {
-        padding-bottom: 0.5rem; /* Ajusta o padding inferior */
-        font-size: 2.3rem; /* Ajusta o tamanho da fonte */
+        padding-bottom: 0.5rem; 
+        font-size: 2.3rem;
         font-weight: 600;
       }
     
       #container-pagtwo {
-        padding: 0.5rem; /* Ajusta o padding interno para telas menores */
+        padding: 0.5rem;
       }
 
      
 
 
     .btn-responsive {
-        font-size: 1rem; /* Ajusta o tamanho da fonte para telas menores */
-        padding: 1.5rem 2rem; /* Ajusta o padding para telas menores */
+        font-size: 1rem; 
+        padding: 1.5rem 2rem; 
     }
 
     .carousel-control-prev-icon,
@@ -674,11 +670,11 @@ font-weight: bold;
     }
 
     .carousel-control-prev {
-        left: -15%; /* Ajuste o valor conforme necessário para telas menores */
+        left: -15%; 
     }
 
     .carousel-control-next {
-        right: -15%; /* Ajuste o valor conforme necessário para telas menores */
+        right: -15%; 
     }
 
     .display-4 {
@@ -701,23 +697,23 @@ font-weight: bold;
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 6vw; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 6vw; 
     }
 
     p {
-        font-size: 4vw; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 4vw; 
     }
 
     .two .container h2{
  font-weight: 800;
- font-size: 2rem; /* Ajusta o tamanho da fonte */
+ font-size: 2rem; 
  font-weight: 600;
     }
 
 
     .two .container h3 {
-      width: 90%; /* Ajusta a largura para telas menores */
-      font-size: 1.5rem; /* Ajusta o tamanho da fonte */
+      width: 90%; 
+      font-size: 1.5rem; 
     }
 
 
@@ -727,8 +723,8 @@ font-weight: bold;
 
 
     .btn-responsive {
-        font-size: 1rem; /* Ajusta o tamanho da fonte para telas menores */
-        padding: 1rem 1rem; /* Ajusta o padding para telas menores */
+        font-size: 1rem;
+        padding: 1rem 1rem; 
     }
 
     .carousel-control-prev-icon,
@@ -740,11 +736,11 @@ font-weight: bold;
     }
 
     .carousel-control-prev {
-        left: -15%; /* Ajuste o valor conforme necessário para telas menores */
+        left: -15%; 
     }
 
     .carousel-control-next {
-        right: -15%; /* Ajuste o valor conforme necessário para telas menores */
+        right: -15%; 
     }
 
     
@@ -776,7 +772,7 @@ font-weight: bold;
   }
 
   .card-custom {
-    height: 65vh; /* Define a altura dos cards para 40% da altura da tela */
+    height: 65vh; 
     width: 60vw;;
   
     display: flex;
@@ -800,33 +796,33 @@ font-weight: bold;
 
 @media (max-width: 500px) {
     h1 {
-        font-size: 7vw; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 7vw; 
     }
 
     p {
-        font-size: 5vw; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 5vw; 
     }
 
     .two .container h3 {
-      width: 90%; /* Ajusta a largura para telas menores */
-      font-size: 1.3rem; /* Ajusta o tamanho da fonte */
+      width: 90%; 
+      font-size: 1.3rem; 
     }
   
     .two .container h2 {
-      padding-bottom: 0.5rem; /* Ajusta o padding inferior */
-      font-size: 1.6rem; /* Ajusta o tamanho da fonte */
+      padding-bottom: 0.5rem; 
+      font-size: 1.6rem;
       font-weight: 600;
     }
   
     #container-pagtwo {
-      padding: 0.5rem; /* Ajusta o padding interno para telas menores */
+      padding: 0.5rem; 
     }
 
 
 
     .btn-responsive {
-        padding: 0.25rem 0.3rem; /* Padding menor para telas ainda menores */
-        white-space: wrap;     /* Garante que o texto não quebre de linha */
+        padding: 0.25rem 0.3rem; 
+        white-space: wrap;     
         padding: 1rem 1rem;
 
         
@@ -841,11 +837,11 @@ font-weight: bold;
     }
 
     .carousel-control-prev {
-        left: -15%; /* Ajuste o valor conforme necessário para telas menores */
+        left: -15%; 
     }
 
     .carousel-control-next {
-        right: -15%; /* Ajuste o valor conforme necessário para telas menores */
+        right: -15%; 
     }
     
 
@@ -873,7 +869,7 @@ font-weight: bold;
   }
 
   .card-custom {
-    height: 60vh; /* Define a altura dos cards para 40% da altura da tela */
+    height: 60vh; 
     width: 75vw;;
   
     display: flex;
@@ -896,30 +892,30 @@ font-weight: bold;
 @media (min-width: 1400px){
    
     h1 {
-        font-size: 5vw; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 5vw; 
     }
 
     p {
-        font-size: 6vw; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 6vw; 
     }
 
 
       
     .two .container h3 {
-        width: 90%; /* Ajusta a largura para telas menores */
-        font-size: 2.3rem; /* Ajusta o tamanho da fonte */
+        width: 90%; 
+        font-size: 2.3rem; 
       }
     
       .two .container h2 {
-        padding-bottom: 0.5rem; /* Ajusta o padding inferior */
-        font-size: 2.6rem; /* Ajusta o tamanho da fonte */
+        padding-bottom: 0.5rem; 
+        font-size: 2.6rem; 
         font-weight: 600;
       }
 
     .btn-responsive {
         font-size: 2.2rem;
-        padding: 1rem 1rem; /* Padding menor para telas ainda menores */
-        white-space: wrap;     /* Garante que o texto não quebre de linha */
+        padding: 1rem 1rem; 
+        white-space: wrap;    
     }
 
     
